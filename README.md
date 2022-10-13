@@ -73,7 +73,59 @@ Make Header contains a navigation bar contains a menu of lists and their list-it
         </nav>
     </header>
 ```
-Click `Go Live`, and the 8 list-items shows on localhost as:<br/>
+Click `Go Live`, and the 8 list-items shows on `localhost` as:<br/>
+[8 list-items.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/8%20list-items.png)<br/>
+Adding a base button as sun and moon icons underneath the list items:
+```JavaScript
+ <div class = "list list-right">
+   <button class = "btn place-items-center" id = "theme-toggle-btn">
+   <i class="ri-sun-line sun-icon"> </i>
+   <i class="ri-moon-line moon-icon"> </i>
+</button>
+```
+[sun and moon icons.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sun%20and%20moon%20icons.png)<br/>
+Adding a search button and a closed-menu button:<br/>
+```JavaScript 
+  <button class = "btn place-items-center" id = "search-icon">
+  <i class="ri-search-line"> </i>
+  </button>
+ <button class = "btn place-items-center screen-lg-hidden
+menu-toggle-icon" id = "menu-toggle-icon">
+ <i class="ri-menu-3-line open-menu-icon"> </i>
+ <i class="ri-close-line close close-menu-icon"> </i>
+ </button>
+```
+[search button and closed-menu button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/search%20button%20and%20closed-menu%20button.png)<br/>
+Hide specific signin and signup items into small screen:<br/>
+```JavaScript 
+ <a href = "#" class = "list-link screen-sm-hidden">Sign in</a>
+  <a href = "#" class = "list-link screen-sm-hidden btn sign-up-btn
+fancy-border">
+   <span>Sign up</span></a>
+```
+# Method Running The Project(Locally)
+
+
+
+
+
+# Testing Results
+[8 list-items.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/8%20list-items.png)<br/>
+[sun and moon icons.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sun%20and%20moon%20icons.png)<br/>
+[search button and closed-menu button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/search%20button%20and%20closed-menu%20button.png)<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
