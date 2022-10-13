@@ -104,6 +104,8 @@ fancy-border">
    <span>Sign up</span></a>
 ```
 # Method Running The Project(Locally)
+Download the entire Starter folder of the BloggieBlog project to the local directory. <br/>
+
 
 
 
