@@ -19,6 +19,12 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [JavaScript Swiper](https://swiperjs.com/)<br/>
 [Vscode 1.72](https://code.visualstudio.com/updates/v1_72)<br/>
 [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
+# Build 
+[Prerequisites & Setup]()<br/>
+[Method Running The Project(Locally)]()<br/> 
+[Debugging&Troubleshooting]()<br/> 
+[Synchronous Developing Notes]()<br/> 
+[Testing Results]()<br/> 
 # Prerequisites & Setup
 ## ***Set up Header***
 In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) under [Starter](https://github.com/KrystalZhang612/BloggieBlog/tree/main/Starter):<br/>
