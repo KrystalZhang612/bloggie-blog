@@ -25,6 +25,10 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Results]()<br/> 
+# Contribution
+[Author]()
+# Compatibility
+`Windows 10`, `WSL Vscode 1.68+`, `Linux Ubuntu 22.04.1 LT`, `MacBook OS Monterey 12.6+`
 # Prerequisites & Setup
 ## ***Set up Header***
 In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) under [Starter](https://github.com/KrystalZhang612/BloggieBlog/tree/main/Starter):<br/>
