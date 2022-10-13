@@ -20,7 +20,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Vscode 1.72](https://code.visualstudio.com/updates/v1_72)<br/>
 [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
 # Build 
-[Prerequisites & Setup]()<br/>
+[Prerequisites & Setup](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#prerequisites--setup)<br/>
 [Method Running The Project(Locally)]()<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/> 
