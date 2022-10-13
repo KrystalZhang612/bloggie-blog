@@ -21,7 +21,62 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
 # Prerequisites & Setup
 ## ***Set up Header***
-In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) under [Starter](https://github.com/KrystalZhang612/BloggieBlog/tree/main/Starter):
+In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) under [Starter](https://github.com/KrystalZhang612/BloggieBlog/tree/main/Starter):<br/>
+Make Header contains a navigation bar contains a menu of lists and their list-items:<br/>
+```JavaScript 
+<!-- Header -->
+    <header class = "header" id = "header">
+        <nav class = "navbar container">
+            <a href = "./index.html">
+                <h2 class = "logo">BloggieBlog</h2>
+            </a>
+            <div class = "menu" id = "menu">
+                <ul class = "list">
+    current">Home</a>
+<li class="list-item">
+    <a href = "#"  class = "list-link
+</li>
+<li class="list-item">
+                        <a href = "#"  class =
+"list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href = "#"  class = "list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href = "#"  class = "list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href = "#"  class =
+"list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href = "#"  class = "list-link">Contact</a>
+                    </li>
+                    <li class="list-item">
+                        <a href = "#"  class = "list-link">Sign in</a>
+                    </li>
+                    <li class="list-item">
+                        <a href = "#"  class = "list-link">Sign up</a>
+                    </li>
+</ul> </div>
+        </nav>
+    </header>
+```
+Click `Go Live`, and the 8 list-items shows on localhost as:<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
