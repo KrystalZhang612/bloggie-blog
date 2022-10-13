@@ -105,12 +105,10 @@ fancy-border">
 ```
 # Method Running The Project(Locally)
 Download the entire Starter folder of the BloggieBlog project to the local directory. <br/>
-
-
-
-
-
-
+Open the project with Vscode on local device.<br/>
+Install Vscode Extension [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
+Open [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) in Starter folder in Vscode. <br/>
+Click `Go Live` on the bottom bar to view the BloggieBlog page. <br/>
 # Testing Results
 [8 list-items.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/8%20list-items.png)<br/>
 [sun and moon icons.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sun%20and%20moon%20icons.png)<br/>
