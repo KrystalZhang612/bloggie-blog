@@ -22,7 +22,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 # Build 
 [Prerequisites & Setup](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#prerequisites--setup)<br/>
 [Method Running The Project(Locally)](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#method-running-the-projectlocally)<br/> 
-[Debugging&Troubleshooting]()<br/> 
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Results]()<br/> 
 # Contribution
