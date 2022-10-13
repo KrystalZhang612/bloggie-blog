@@ -1,5 +1,5 @@
 # BloggieBlog
-A newsfeed blog developed with HTML, CSS and JavaScript with frontend development skills, including various features of header, search bar, featured articles, posts, popular tags, newsletter subscription and media queries, and so on.<br/><hr>
+A personal newsfeed blog developed with HTML, CSS and JavaScript with frontend development skills, including various features of header, search bar, featured articles, posts, popular tags, newsletter subscription and media queries, and so on.<br/><hr>
 # Functionalities/Demo
 [BloggieBlog Overview-1.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/BloggieBlog%20Overview-1.png)<br/>
 [BloggieBlog Overview-2.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/BloggieBlog%20Overview-2.png)<br/> 
