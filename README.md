@@ -24,7 +24,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Method Running The Project(Locally)](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#method-running-the-projectlocally)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Results]()<br/> 
+[Testing Results](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#testing-results)<br/> 
 # Contribution
 [Author]()
 # Compatibility
@@ -111,7 +111,7 @@ Open [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Start
 Click `Go Live` on the bottom bar to view the BloggieBlog page. <br/>
 # Debugging&Troubleshooting
 -  Error: Menu item not showing when clicking the menu toggle icon. DEBUGGING: Change opacity from 0 to 1 to make the menu list display.
--  
+-  Insignificant Error: Search Bar prompt not showing. DEBUGGING: Change display to flex in` main.css`. And set `opacity: 0; transform: scale(0);` into comments.
 
 # Synchronous Developing Notes
 ## ***Base - CSS:***
@@ -320,6 +320,151 @@ Then call the menu toggle icon with add event listener:
 ```JavaScript
 menuToggleIcon.addEventListener('click', toggleMenu);
 ```
+Now click the menu toggle icon on the right top bar we got:<br/>
+[menu toggle list items showing.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/menu%20toggle%20list%20items%20showing.png)<br/>
+Switch theme/add to local storage:<br/>
+```JavaScript 
+const bodyElement = document.body;
+const themeToggleBtn = selectElement(`#theme-toggle-icon`);
+```
+Add the click operation to switch light/dark themes:
+```JavaScript 
+ themeToggleBtn.addEventListener('click', () => {
+    bodyElement.classList.toggle('light-theme'); ...});
+```
+To store the selected theme whenever refresh webpage by adding localStorage:
+```JavaScript 
+  if(bodyElement.classList.contains('light-theme')){
+        localStorage.setItem('currentTheme', 'themeActive');
+    }else{
+        localStorage.removeItem('currentTheme');
+} });
+```
+Also add the localStorage onto getItem:
+```JavaScript 
+ const currentTheme = localStorage.getItem('currentTheme');
+```
+To retain the selected brightness theme when refreshing the page:
+```JavaScript 
+ if (currentTheme){
+    bodyElement.classList.add('light-theme'); }
+```
+So now when we selected certain theme, dark or bright, and when we refresh the webpage:<br/>
+[theme retains bright.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/theme%20retains%20bright.png)<br/> 
+[theme retains dark.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/theme%20retains%20dark.png)<br/>
+## ***Search Bar:***
+In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html):
+```JavaScript 
+ <div class = "search-form-container container"
+id="search-form-container">
+        <div class = "form-container-inner">
+            <form action = "" class="form">
+                <input type="text" class="form-input"
+placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class = "form-note">Or Press ESC to Close</span>
+        </div>
+        <button class="btn form-close-btn place-items-center"
+id="form-close-btn">
+            <i class = "ri-close-line"></i>
+        </button>
+</div>
+```
+## ***Search Bar -CSS:***
+Start with the Search form container:
+```css
+ .search-form-container{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-color: var(--primary-background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    /*opacity: 0;
+    transform: scale(0);*/
+    transition: opacity .5s;}
+```
+Add some styles for the search bar in main.css:
+```css
+.search-form-container{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-color: var(--primary-background-color);
+      position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    /*opacity: 0;
+    transform: scale(0);*/
+    transition: opacity .5s;
+}
+.form-container-inner{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    text-align: center;
+}
+```
+Now we get a properly aligned search bar that prompts for searching from users:<br/>
+[Search bar.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Search%20bar.png)<br/>
+## ***Form JavaScript styles:***
+```JavaScript 
+ .search-form-container.activated{
+    opacity: 1;
+    transform: scale(1);
+}
+```
+To close the middle search bar anytime we want, in main.js, we need to modify the open/close search forms popup:
+```JavaScript
+const formOpenBtn = selectElement('#search-icon');
+const formCloseBtn = selectElement('#form-close-btn');
+const searchFormContainer = selectElement('#search-form-container');
+```
+Enable the click-then-pop-up function by adding server listener for form open button:
+```JavaScript 
+formOpenBtn.addEventListener('click', () => searchFormContainer.classList.add('activated'));
+```
+Also activate the form close button with add server event:
+```JavaScript 
+formCloseBtn.addEventListener('click', () => searchFormContainer.classList.remove('activated'));
+```
+So the search bar will be closed when the user clicks the closing button.<br/> 
+Close the search form popup on ESC keypress:
+```JavaScript 
+window.addEventListener('keyup', event =>{
+if(event.key === 'Escape') searchFormContainer.classList.remove('activated'); });
+```
+So when the user presses the ESC key, the search bar will close.
+## ***Featured Articles HTML:***
+In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html):<br/>
+Adding featured details to enrich the home page content:
+```JavaScript 
+ <!-- Featured articles -->
+    <section class="featured-articles section-header-offset">
+        <div class="feature-articles-container container d-grid">
+            <div class="featured-content d-grid">
+ News</span>
+<div class="headline-banner">
+    <h3 class="headline fancy-border">
+        <span class="place-items-center">Breaking
+</h3>
+                    <span class="headline-description">Apple Announces
+a New Partnership...</span>
+</div>
+...
+```
+Now the featured articles sections looks good:<br/>
+
+
 
 
 
@@ -343,6 +488,13 @@ menuToggleIcon.addEventListener('click', toggleMenu);
 [search button and closed-menu button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/search%20button%20and%20closed-menu%20button.png)<br/>
 [after setting up CSS Base.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/after%20setting%20up%20CSS%20Base.png)<br/>
 [nav bar turns into red.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/nav%20bar%20turns%20into%20red.png)<br/>
+[menu toggle list items showing.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/menu%20toggle%20list%20items%20showing.png)<br/>
+[theme retains bright.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/theme%20retains%20bright.png)<br/> 
+[theme retains dark.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/theme%20retains%20dark.png)<br/>
+[Search bar.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Search%20bar.png)<br/>
+
+
+
 
 
 
