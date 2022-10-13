@@ -23,7 +23,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Prerequisites & Setup](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#prerequisites--setup)<br/>
 [Method Running The Project(Locally)](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#method-running-the-projectlocally)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#debuggingtroubleshooting)<br/> 
-[Synchronous Developing Notes]()<br/> 
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Results]()<br/> 
 # Contribution
 [Author]()
