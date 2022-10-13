@@ -109,16 +109,240 @@ Open the project with Vscode on local device.<br/>
 Install Vscode Extension [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
 Open [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) in Starter folder in Vscode. <br/>
 Click `Go Live` on the bottom bar to view the BloggieBlog page. <br/>
+# Debugging&Troubleshooting
+-  Error: Menu item not showing when clicking the menu toggle icon. DEBUGGING: Change opacity from 0 to 1 to make the menu list display.
+-  
+
+# Synchronous Developing Notes
+## ***Base - CSS:***
+In [main.css](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/assets/css/main.css) under Starter:<br/> 
+For the base styles:
+```css
+*{
+margin: 0;
+padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* font-size: 10px;*/
+    font-size: 62.5%;
+} body{
+    font-family: var( --font-family);
+    font-size: var(--font-size-sm);
+    color: var(--light-color-alt);
+    background-color: var(--primary-background-color);
+    letter-spacing: 1px;
+    transition: background-color .25s, color .25s;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+} img{
+    max-width: 100%;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+input,
+button{
+    font: inherit;
+    color: inherit;
+    border: none;
+ 
+background-color: transparent;
+    outline: none;
+}
+i{
+    font-size: var(--font-size-md);
+}
+```
+For the theme color:
+```css
+body.light-theme{
+    --light-color: #3d3d3d;
+    --light-color-alt: rgba(0,0,0,.6);
+    --primary-background-color: #fff;
+    --secondary-background-color: #f1f1f1;
+    --hover-light-color: #fff;
+    --transparent-light-color: #252830;
+    --transparent-dark-color: rgba(0,0,0,.1);   }
+```
+For Reusable classes:
+```css
+.container{
+    max-width: 160rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.place-items-center{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+```
+And set the items as hidden into a small screen at the end:
+```css
+.screen-sm-hidden{
+    display: none; }
+```
+[after setting up CSS Base.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/after%20setting%20up%20CSS%20Base.png)<br/>
+## ***Header - CSS:***
+```css
+.header{
+    background-color: var(--secondary-background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+} .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+}
+.logo{
+    font-size: var(--font-size-md);
+    color: var(--light-color);
+} .menu{
+    position: absolute;
+    top: 8.5rem;
+    right: 1.5rem;
+    width: 23rem;
+    padding: 1.5rem;
+    background-color: var(--secondary-background-color);
+    /*opacity: 0;
+    transform: scale(0);*/
+    transition: opacity .25s ease-in;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+.menu > .list{
+    flex-direction: column;
+}
+.list-link.current{
+    color: var(--light-color);
+}
+.close-menu-icon{
+    display: none;
+} .btn{
+    cursor: pointer;
+}
+.list-link:hover,
+.btn:hover,
+.btn:hover span{
+    color: var(--light-color);
+}
+.moon-icon{
+    display: none;
+}
+.light-theme .sun-icon{
+    display: none;
+}
+.light-theme .moon-icon{
+    display: block; }
+```
+## ***Header JavaScript Styles:***
+Have the header and the menu activated:
+```css
+.header.activated{
+    box-shadow: 0 1px .5rem var( --transparent-light-color);}
+.menu.activated{
+    box-shadow: 1px 1px 1rem var( --transparent-light-color);
+    opacity: 1;
+    transform: scale(1); }
+```
+Switch the icons:<br/> 
+When it’s activated, target it to the open menu icon:
+```css
+.menu-toggle-icon.activated .open-menu-icon{
+    display: none; }
+ .menu-toggle-icon.activated .close-menu-icon{
+    display: block; }
+```
+## ***JavaScript Events Management:***
+Go to [main.js](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/assets/js/main.js)<br/>
+To Grab Element:<br/>
+Select element, if sth goes wrong, throw an error and specify the selector:
+```JavaScript 
+ const selectElement = selector => {
+    const element = document.querySelector(selector)
+    if(element) return element;
+    throw new Error('Something went wrong, make sure that ${selector}
+exists or is typed correctly.'); }
+```
+Call it and pass the navigation bar to test if above function works:
+```JavaScript 
+ console.log(selectElement('.navbar'));
+```
+Navigate the styles on scroll:
+```JavaScript 
+ const scrollHeader = () => {
+    const headerElement = selectElement('#header');
+    if(this.scrollY >= 15){
+        headerElement.classList.add('activated');
+    } else{
+        headerElement.classList.remove('activated');
+    }
+};
+```
+Make Scroll header visible by calling it in add event listener:
+```JavaScript 
+window.addEventListener('scroll', scrollHeader);
+```
+Test it by setting the transparent-light-color to red in [main.css](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/assets/css/main.css):
+```css
+.header.activated{
+    box-shadow: 0 1px .5rem var( --transparent-light-color);
+    background-color: red;
+}
+```
+Also add Search division in [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html):
+```JavaScript 
+<div class = "search"></div>
+```
+So when we scroll down the webpage, the navigation bar turns to red:<br/>
+[nav bar turns into red.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/nav%20bar%20turns%20into%20red.png)<br/>
+Open menu & search pop-up:<br/>
+```JavaScript
+const menuToggleIcon  = selectElement('#menu-toggle-icon');
+const toggleMenu = () => {
+    const mobileMenu = selectElement('#menu');
+    mobileMenu.classList.toggle('activated');
+    menuToggleIcon.classList.toggle('activated');
+};
+```
+Then call the menu toggle icon with add event listener:
+```JavaScript
+menuToggleIcon.addEventListener('click', toggleMenu);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Testing Results
 [8 list-items.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/8%20list-items.png)<br/>
 [sun and moon icons.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sun%20and%20moon%20icons.png)<br/>
 [search button and closed-menu button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/search%20button%20and%20closed-menu%20button.png)<br/>
-
-
-
-
-
-
+[after setting up CSS Base.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/after%20setting%20up%20CSS%20Base.png)<br/>
+[nav bar turns into red.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/nav%20bar%20turns%20into%20red.png)<br/>
 
 
 
