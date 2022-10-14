@@ -1098,8 +1098,7 @@ So now we have neon-colored sign-up button:<br/>
 [all trending news images in box.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/all%20trending%20news%20image%20in%20box.png)<br/> 
 [sidebar features css done-1.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-1.png)<br/> 
 [sidebar features css done-2.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-2.png)<br/> 
-[sidebar features css done-3.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-3.png)<br/>  
-[sidebar features css done-4.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-4.png)<br/>
+[sidebar features css done-3.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-3.png)<br/>[sidebar features css done-4.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-4.png)<br/>
 [quick read next navigation shows.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/quick%20read%20next%20navigation%20shows.png)<br/>
 [swiper pagination works-1.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-1.png)<br/> 
 [swiper pagination works-2.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-2.png)<br/> 
