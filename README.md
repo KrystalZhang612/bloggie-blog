@@ -1124,44 +1124,6 @@ So now we have neon-colored sign-up button:<br/>
 [better aligned featured articles.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/better%20aligned%20featured%20articles.png)<br/>
 [horizontally aligned older posts.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/horizontally%20aligned%20older%20posts.png)<br/>
 [menu bar on the very top.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/menu%20bar%20on%20the%20very%20top.png)<br/>
+[neon color hover sign up button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/neon%20color%20hover%20sign%20up%20button.png)<br/>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
