@@ -31,6 +31,12 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Author](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#author)
 # Compatibility
 `Windows 10`, `WSL Vscode 1.68+`, `Linux Ubuntu 22.04.1 LT`, `MacBook OS Monterey 12.6+`
+# Method Running The Project(Locally)
+Download the entire Starter folder of the BloggieBlog project to the local directory. <br/>
+Open the project with Vscode on local device.<br/>
+Install Vscode Extension [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
+Open [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) in Starter folder in Vscode. <br/>
+Click `Go Live` on the bottom bar to view the BloggieBlog page. <br/>
 # Prerequisites & Setup
 ## ***Set up Header***
 In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) under [Starter](https://github.com/KrystalZhang612/BloggieBlog/tree/main/Starter):<br/>
@@ -105,12 +111,6 @@ Hide specific signin and signup items into small screen:<br/>
 fancy-border">
    <span>Sign up</span></a>
 ```
-# Method Running The Project(Locally)
-Download the entire Starter folder of the BloggieBlog project to the local directory. <br/>
-Open the project with Vscode on local device.<br/>
-Install Vscode Extension [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
-Open [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) in Starter folder in Vscode. <br/>
-Click `Go Live` on the bottom bar to view the BloggieBlog page. <br/>
 # Debugging&Troubleshooting
 -  Error: Menu item not showing when clicking the menu toggle icon. DEBUGGING: Change opacity from 0 to 1 to make the menu list display.
 -  Insignificant Error: Search Bar prompt not showing. DEBUGGING: Change display to flex in` main.css`. And set `opacity: 0; transform: scale(0);` into comments.
