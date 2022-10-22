@@ -32,6 +32,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
     <img src ="https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20js%20logo.png" title ="Swiper JS" alt ="Swiper JS" width = "60" height="60" />&nbsp; 
     <img src ="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" title ="Visual Studio Code" alt ="Visual Studio Code" width = "60" height="60" />&nbsp; 
     <img src ="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title ="JavaScript" alt ="JavaScript" width = "60" height="60" />&nbsp; 
+    <img src ="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"  title ="HTML5" alt ="HTML5" width = "60" height="60" />&nbsp; 
 </div>
 
 # Build 
