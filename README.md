@@ -17,12 +17,12 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 - A right-hand-side sidebar contains a quick read section utilizing JavaScript library `Swiper`, which creates a responsive carousel, to achieve arrows in pagination work.
 - Older Posts section and Popular Tags section that are composed of six cards.
 - A Newsletter section prompting users to subscribe to the newsletter if they want to.
-# Developing Tools
+# 🛠️  Developing Languages, Tools, and Techniques Needed
 [JavaScript Swiper](https://swiperjs.com/)<br/>
 [Vscode 1.72](https://code.visualstudio.com/updates/v1_72)<br/>
 [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
 # Build 
-[Method to Run & Test the Project Locally]()<br/>
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setup](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#prerequisites--setup)<br/>
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#synchronous-developing-notes)<br/> 
