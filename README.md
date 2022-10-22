@@ -18,9 +18,13 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 - Older Posts section and Popular Tags section that are composed of six cards.
 - A Newsletter section prompting users to subscribe to the newsletter if they want to.
 # 🛠️  Developing Languages, Tools, and Techniques Needed
-[JavaScript Swiper](https://swiperjs.com/)<br/>
+[Swiper JS](https://swiperjs.com/)<br/>
 [Vscode 1.72](https://code.visualstudio.com/updates/v1_72)<br/>
 [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
+<div>
+    <img src ="https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20js%20logo.png" title ="Swiper JS" alt ="Swiper JS" width = "60" height="60" />&nbsp; 
+</div>
+
 # Build 
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setup](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#prerequisites--setup)<br/>
