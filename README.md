@@ -21,9 +21,17 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Swiper JS](https://swiperjs.com/)<br/>
 [Vscode 1.72](https://code.visualstudio.com/updates/v1_72)<br/>
 [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
+[JavaScript](https://www.javascript.com)<br/>
+[HTML5](https://en.wikipedia.org/wiki/HTML5)<br/>
+[CSS3](https://en.wikipedia.org/wiki/CSS)<br/>
+
+
+
+
 <div>
     <img src ="https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20js%20logo.png" title ="Swiper JS" alt ="Swiper JS" width = "60" height="60" />&nbsp; 
     <img src ="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" title ="Visual Studio Code" alt ="Visual Studio Code" width = "60" height="60" />&nbsp; 
+    <img src ="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title ="JavaScript" alt ="JavaScript" width = "60" height="60" />&nbsp; 
 </div>
 
 # Build 
