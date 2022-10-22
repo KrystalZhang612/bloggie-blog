@@ -22,7 +22,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Vscode 1.72](https://code.visualstudio.com/updates/v1_72)<br/>
 [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
 # Build 
-[Method Running The Project(Locally)](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#method-running-the-projectlocally)<br/> 
+[Method to Run & Test the Project Locally]()<br/>
 [Prerequisites & Setup](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#prerequisites--setup)<br/>
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#synchronous-developing-notes)<br/> 
@@ -31,7 +31,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Author](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#author)
 # Compatibility
 `Windows 10`, `WSL Vscode 1.68+`, `Linux Ubuntu 22.04.1 LT`, `MacBook OS Monterey 12.6+`
-# Method Running The Project(Locally)
+# Method to Run & Test the Project Locally
 Download the entire Starter folder of the BloggieBlog project to the local directory. <br/>
 Open the project with Vscode on local device.<br/>
 Install Vscode Extension [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
