@@ -47,11 +47,11 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 # Compatibility
 `Windows 10`, `WSL Vscode 1.68+`, `Linux Ubuntu 22.04.1 LT`, `MacBook OS Monterey 12.6+`
 # Method to Run & Test the Project Locally
-Download the entire Starter folder of the BloggieBlog project to the local directory. <br/>
-Open the project with Vscode on local device.<br/>
-Install Vscode Extension [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/)<br/>
-Open [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) in Starter folder in Vscode. <br/>
-Click `Go Live` on the bottom bar to view the BloggieBlog page. <br/>
+### Download the entire Starter folder of the BloggieBlog project to the local directory.
+### Open the project with Vscode on local device. 
+### Install Vscode Extension [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/) 
+### Open [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) in Starter folder in Vscode. 
+### Click `Go Live` on the bottom bar to view the BloggieBlog page. 
 # Prerequisites & Setup
 ## ***Set up Header***
 In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) under [Starter](https://github.com/KrystalZhang612/BloggieBlog/tree/main/Starter):<br/>
