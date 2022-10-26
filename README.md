@@ -45,6 +45,11 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 # Contribution
 [Author](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#author)
 # Compatibility
+
+
+
+
+
 `Windows 10`, `WSL Vscode 1.68+`, `Linux Ubuntu 22.04.1 LT`, `MacBook OS Monterey 12.6+`
 # Method to Run & Test the Project Locally
 ### Download the entire Starter folder of the BloggieBlog project to the local directory.
