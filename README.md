@@ -54,7 +54,6 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 | Linux Kernel     | :white_check_mark: |
 | Ubuntu           | :white_check_mark: |
 
-`Windows 10`, `WSL Vscode 1.68+`, `Linux Ubuntu 22.04.1 LT`, `MacBook OS Monterey 12.6+`
 # Method to Run & Test the Project Locally
 ### Download the entire Starter folder of the BloggieBlog project to the local directory.
 ### Open the project with Vscode on local device. 
