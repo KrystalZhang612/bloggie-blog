@@ -40,13 +40,13 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 </div>
 
 # Build 
-[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
-[Prerequisites & Setup](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#prerequisites--setup)<br/>
-[Debugging&Troubleshooting](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#debuggingtroubleshooting)<br/> 
-[Synchronous Developing Notes](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Results](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#testing-results)<br/> 
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#method-to-run--test-the-project-locally)<br/>
+[Prerequisites & Setup](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#prerequisites--setup)<br/>
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#debuggingtroubleshooting)<br/> 
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#synchronous-developing-notes)<br/> 
+[Testing Results](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#testing-results)<br/> 
 # Contribution
-[Author](https://github.com/KrystalZhang612/BloggieBlog/blob/main/README.md#author)
+[Author](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#author)
 # Compatibility
 |   OS             | Supported          |
 | -------          | ------------------ |
