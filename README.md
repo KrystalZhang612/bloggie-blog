@@ -45,6 +45,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#synchronous-developing-notes)<br/> 
 [Testing Results](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#testing-results)<br/> 
+[Tags and Topics]()
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#author)
 # Compatibility
@@ -1153,6 +1154,8 @@ So now we have neon-colored sign-up button:<br/>
 [menu bar on the very top.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/menu%20bar%20on%20the%20very%20top.png)<br/>
 [neon color hover sign up button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/neon%20color%20hover%20sign%20up%20button.png)<br/>
 
+# Tags and Topics
+javascript, front-end, html5, json-api, css3, html-css, javascript, swiper-js, javascript-manager, blogs. 
 # Author
 Krystal Zhang 
 https://github.com/KrystalZhang612<hr>
