@@ -45,7 +45,7 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#synchronous-developing-notes)<br/> 
 [Testing Results](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#testing-results)<br/> 
-[Tags and Topics]()
+[Tags and Topics](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/README.md#tags-and-topics)
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog#author)
 # Compatibility
