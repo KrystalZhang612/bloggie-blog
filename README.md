@@ -108,7 +108,7 @@ Make Header contains a navigation bar contains a menu of lists and their list-it
     </header>
 ```
 Click `Go Live`, and the 8 list-items shows on `localhost` as:<br/>
-[8 list-items.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/8%20list-items.png)<br/>
+[8 list-items.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/8%20list-items.PNG)<br/>
 Adding a base button as sun and moon icons underneath the list items:
 ```JavaScript
  <div class = "list list-right">
@@ -117,7 +117,7 @@ Adding a base button as sun and moon icons underneath the list items:
    <i class="ri-moon-line moon-icon"> </i>
 </button>
 ```
-[sun and moon icons.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sun%20and%20moon%20icons.png)<br/>
+[sun and moon icons.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sun%20and%20moon%20icons.PNG)<br/>
 Adding a search button and a closed-menu button:<br/>
 ```JavaScript 
   <button class = "btn place-items-center" id = "search-icon">
@@ -129,7 +129,7 @@ menu-toggle-icon" id = "menu-toggle-icon">
  <i class="ri-close-line close close-menu-icon"> </i>
  </button>
 ```
-[search button and closed-menu button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/search%20button%20and%20closed-menu%20button.png)<br/>
+[search button and closed-menu button.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/search%20button%20and%20closed-menu%20button.PNG)<br/>
 Hide specific signin and signup items into small screen:<br/>
 ```JavaScript 
  <a href = "#" class = "list-link screen-sm-hidden">Sign in</a>
@@ -214,7 +214,7 @@ And set the items as hidden into a small screen at the end:
 .screen-sm-hidden{
     display: none; }
 ```
-[after setting up CSS Base.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/after%20setting%20up%20CSS%20Base.png)<br/>
+[after setting up CSS Base.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/after%20setting%20up%20CSS%20Base.PNG)<br/>
 ## ***Header - CSS:***
 ```css
 .header{
@@ -334,7 +334,6 @@ Also add Search division in [index.html](https://github.com/KrystalZhang612/Blog
 <div class = "search"></div>
 ```
 So when we scroll down the webpage, the navigation bar turns to red:<br/>
-[nav bar turns into red.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/nav%20bar%20turns%20into%20red.png)<br/>
 Open menu & search pop-up:<br/>
 ```JavaScript
 const menuToggleIcon  = selectElement('#menu-toggle-icon');
@@ -349,7 +348,7 @@ Then call the menu toggle icon with add event listener:
 menuToggleIcon.addEventListener('click', toggleMenu);
 ```
 Now click the menu toggle icon on the right top bar we got:<br/>
-[menu toggle list items showing.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/menu%20toggle%20list%20items%20showing.png)<br/>
+[menu toggle list items showing.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/menu%20toggle%20list%20items%20showing.PNG)<br/>
 Switch theme/add to local storage:<br/>
 ```JavaScript 
 const bodyElement = document.body;
@@ -378,8 +377,8 @@ To retain the selected brightness theme when refreshing the page:
     bodyElement.classList.add('light-theme'); }
 ```
 So now when we selected certain theme, dark or bright, and when we refresh the webpage:<br/>
-[theme retains bright.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/theme%20retains%20bright.png)<br/> 
-[theme retains dark.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/theme%20retains%20dark.png)<br/>
+[theme retains bright.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/theme%20retains%20bright.PNG)<br/> 
+[theme retains dark.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/theme%20retains%20dark.PNG)<br/>
 ## ***Search Bar:***
 In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html):
 ```JavaScript 
@@ -443,7 +442,7 @@ Add some styles for the search bar in main.css:
 }
 ```
 Now we get a properly aligned search bar that prompts for searching from users:<br/>
-[Search bar.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Search%20bar.png)<br/>
+[Search bar.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/Search%20bar.PNG)<br/>
 ## ***Form JavaScript styles:***
 ```JavaScript 
  .search-form-container.activated{
@@ -491,7 +490,7 @@ a New Partnership...</span>
 ...
 ```
 Now the featured articles sections looks good:<br/>
-[featured articles initial look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/featured%20articles%20initial%20look.png)<br/>
+[featured articles initial look.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/featured%20articles%20initial%20look.PNG)<br/>
 ## ***Featured articles-CSS:***
 Get nicer layout for the background colors:
 ```css
@@ -606,11 +605,11 @@ Since we used `absolute` in index.html, so we can use `relative` here directly t
 .trending-news-image-box{
     position: relative; }
 ```
-[all trending news images in box.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/all%20trending%20news%20image%20in%20box.png)<br/> 
-[sidebar features css done-1.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-1.png)<br/> 
-[sidebar features css done-2.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-2.png)<br/> 
-[sidebar features css done-3.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-3.png)<br/>  
-[sidebar features css done-4.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-4.png)<br/>
+[all trending news images in box.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/all%20trending%20news%20image%20in%20box.PNG)<br/> 
+[sidebar features css done-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sidebar%20features%20css%20done-1.PNG)<br/> 
+[sidebar features css done-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sidebar%20features%20css%20done-2.PNG)<br/> 
+[sidebar features css done-3.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sidebar%20features%20css%20done-3.PNG)<br/>  
+[sidebar features css done-4.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sidebar%20features%20css%20done-4.PNG)<br/>
 ## ***Quick Read-HTML:***
 In index.html, implement the structure for the Swiper carousel:
 ```JavaScript
@@ -634,7 +633,7 @@ Add navigation controls for the quick read contents underneath the Swiper wrappe
 <div class = "swiper-button-prev swiper-controls"></div>
  <div class = "swiper-button-next swiper-controls"></div>
 ```
-[quick read next navigation shows.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/quick%20read%20next%20navigation%20shows.png)<br/>
+[quick read next navigation shows.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/quick%20read%20next%20navigation%20shows.PNG)<br/>
 Add the pagination:
 ```JavaScript
  <div class = "swiper-pagination"></div>
@@ -689,12 +688,12 @@ const swiper = new Swiper('.swiper', {
 }});
 ```
 Now the swiper pagination works well as we sliding left and right:<br/>
-[swiper pagination works-1.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-1.png)<br/> 
-[swiper pagination works-2.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-2.png)<br/> 
-[swiper pagination works-3.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper-pagination%20works-3.png)<br/> 
-[swiper pagination works-4.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper-pagination%20works-4.png)<br/> 
-[swiper pagination works-5.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-5.png)<br/> 
-[swiper pagination works-6.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-6.png)<br/>
+[swiper pagination works-1.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper%20pagination%20works-1.PNG)<br/> 
+[swiper pagination works-2.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper%20pagination%20works-2.PNG)<br/> 
+[swiper pagination works-3.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper-pagination%20works-3.PNG)<br/> 
+[swiper pagination works-4.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper-pagination%20works-4.PNG)<br/> 
+[swiper pagination works-5.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper%20pagination%20works-5.PNG)<br/> 
+[swiper pagination works-6.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper%20pagination%20works-6.PNG)<br/>
 Add responsive breakpoints to separate the blocks:
 ```JavaScript 
  breakpoints: {
@@ -705,7 +704,7 @@ Add responsive breakpoints to separate the blocks:
         }, }
 ```
 Now if we expand the webpage, all quick-read grid are aligned horizontally separated:
-[quick read in separate grid after adding breakpoints.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/quick%20read%20in%20seperate%20grid%20after%20adding%20breakpoints.png)<br/>
+[quick read in separate grid after adding breakpoints.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/quick%20read%20in%20seperate%20grid%20after%20adding%20breakpoints.PNG)<br/>
 Also set up styles for the swiper pagination bullet points in main.css:
 ```css
 .swiper-pagination{
@@ -715,7 +714,7 @@ Also set up styles for the swiper pagination bullet points in main.css:
     background-color: var(--light-color); }
 ```
 Now the bullet points underneath the quick-read contents look more striking:<br/>
-[more striking bullet points.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/more%20strking%20bullet%20points.png)<br/>
+[more striking bullet points.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/more%20strking%20bullet%20points.PNG)<br/>
 ## ***Older Posts - HTML:***
 In index.html:<br/>
 To make overshadowing effect:
@@ -746,7 +745,7 @@ Electric Cars with Its Radiation Bad for Human
 </a>
 ```
 Now we have all the cards here with each individual image:<br/>
-[all older posts cards with individual image.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/all%20older%20posts%20cards%20with%20individual%20image.png)<br/>
+[all older posts cards with individual image.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/all%20older%20posts%20cards%20with%20individual%20image.PNG)<br/>
 ## ***Older posts - CSS:***
 In main.css:
 ```css
@@ -799,7 +798,7 @@ class="article-image">
 }
 ```
 So now the padding tags appear on the center of each image grid:<br/>
-[popular tags initial look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/poplar%20tags%20initial%20look.png)<br/>
+[popular tags initial look.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/poplar%20tags%20initial%20look.PNG)<br/>
 ## ***Newsletter - HTML:***
 ```JavaScript 
 <section class="newsletter section">
@@ -823,7 +822,7 @@ placeholder="Enter your email address.">
 </section>
 ```
 Now we have the icon and blank that prompt users to subscribe to the blog’s newsletter:<br/>
-[newsletter section initial look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/newsletter%20section%20initial%20look.png)<br/>
+[newsletter section initial look.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/newsletter%20section%20initial%20look.PNG)<br/>
 ## ***Newsletter - CSS:***
 ```css
  .newsletter{
@@ -837,7 +836,7 @@ Now we have the icon and blank that prompt users to subscribe to the blog’s ne
 }
 ```
 Now we have: <br/>
-[newsletter final look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/newsletter%20final%20look.png)<br/>
+[newsletter final look.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/newsletter%20final%20look.PNG)<br/>
 ## ***Footer HTML:***
 To add all list of data, along with social media contacts:
 ```JavaScript 
@@ -868,12 +867,12 @@ ufftfafeutetfteuetrfeufteytewayweudfewudaew
 </a> </li>
 ```
 Now we have all button-alike social media icons:<br/>
-[footer social media icons.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/footer%20social%20media%20icons.png)<br/>
+[footer social media icons.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/footer%20social%20media%20icons.PNG)<br/>
 Add a reserved copyright to BloggieBlog:
 ```JavaScript 
 <span class = "copyright-notice">&copy; 2022 BloggieBlog. All rights reserved.</span>
 ```
-[all copyrights reserved.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/all%20copyrights%20reserved.png)<br/>
+[all copyrights reserved.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/all%20copyrights%20reserved.PNG)<br/>
 To add different lists of items to the footer:
 ```JavaScript 
 <div>
@@ -900,7 +899,7 @@ To add different lists of items to the footer:
 </div> ...
 ```
 Now we have:<br/>
-[footer sample items look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/footer%20sample%20items%20look.png)<br/>
+[footer sample items look.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/footer%20sample%20items%20look.PNG)<br/>
 ## ***Footer-CSS:***
 ```css
 .footer{
@@ -934,7 +933,7 @@ Now we have:<br/>
     margin-bottom: var(--margin-sm);
 }
 ```
-[vertically aligned footer items.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/vertically%20aligned%20footer%20items.png)<br/>
+[vertically aligned footer items.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/vertically%20aligned%20footer%20items.PNG)<br/>
 ## ***Blog Posts - HTML:***
 To add contents to the featured blogs, in [post.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/post.html):
 ```JavaScript 
@@ -977,7 +976,7 @@ class = "article-image">
                         <h3 class = "author-name">John Doe</h3>
 <p>hdbiqwgkduhlgfwyuifsxgkyjsxdbusygdyusjdbuatd</p>
 ```
-[blog post content and author details.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/blog%20post%20contents%20and%20author%20details.png)<br/>
+[blog post content and author details.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/blog%20post%20contents%20and%20author%20details.PNG)<br/>
 ## ***Blog posts - CSS:***
 Select the box container style:
 ```css
@@ -1021,7 +1020,7 @@ Select the box container style:
 }
 ```
 Now the blog posts look like: <br>
-[blog post overview look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/blog%20post%20overview%20look.png)<br/>
+[blog post overview look.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/blog%20post%20overview%20look.PNG)<br/>
 ## ***Media Queries:***
 Arrange Trending News titles to align on the side of each grid in main.css:
 ```css
@@ -1040,7 +1039,7 @@ Arrange Trending News titles to align on the side of each grid in main.css:
 }
 ```
 Now we have:<br/>
-[remodified trending news alignment.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/remodified%20trending%20news%20alignment.png)<br/>
+[remodified trending news alignment.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/remodified%20trending%20news%20alignment.PNG)<br/>
 Also change the layout of the Popular Tag section to be side-by-side layout:
 ```css
  .popular-tags-container,
@@ -1048,7 +1047,7 @@ Also change the layout of the Popular Tag section to be side-by-side layout:
         grid-template-columns: repeat(2, 1fr );
     }
 ```
-[side-by-side popular tags.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/side-by-side%20popular%20tags.png)<br/>
+[side-by-side popular tags.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/side-by-side%20popular%20tags.PNG)<br/>
 Adding styles to Featured articles to make them aligned better:
 ```css
 @media screen and (min-width: 768px) {
@@ -1070,7 +1069,7 @@ Adding styles to Featured articles to make them aligned better:
         grid-row: 4/6;}
 ```
 Stretch the webpage and Featured articles are properly aligned:<br/>
-[better aligned featured articles.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/better%20aligned%20featured%20articles.png)<br/>
+[better aligned featured articles.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/better%20aligned%20featured%20articles.PNG)<br/>
 Also add styles to older posts:
 ```css
  .older-posts .article{
@@ -1078,7 +1077,7 @@ Also add styles to older posts:
 }
 ```
 So we get: <br/>
-[horizontally aligned older posts.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/horizontally%20aligned%20older%20posts.png)<br/>
+[horizontally aligned older posts.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/horizontally%20aligned%20older%20posts.PNG)<br/>
 ## ***Add redirection links to Menu:***
 ```css
  @media screen and (min-width: 1024px) {
@@ -1095,7 +1094,7 @@ So we get: <br/>
 }}
 ```
 Now we have the horizontally aligned Menu bar on the very top:<br/>
-[menu bar on the very top.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/menu%20bar%20on%20the%20very%20top.png)<br/>
+[menu bar on the very top.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/menu%20bar%20on%20the%20very%20top.PNG)<br/>
 ## ***Add Neon effects to Sign in and Sign up boxes:***
 ```css
 .sign-up-btn{
@@ -1110,48 +1109,21 @@ infinite; }
         } }}
 ```
 So now we have neon-colored sign-up button:<br/> 
-[neon color hover sign up button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/neon%20color%20hover%20sign%20up%20button.png)<br/>
+[neon color hover sign up button.PNG](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/neon%20color%20hover%20sign%20up%20button.PNG)<br/>
 
 # Testing Results
-[8 list-items.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/8%20list-items.png)<br/>
-[sun and moon icons.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sun%20and%20moon%20icons.png)<br/>
-[search button and closed-menu button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/search%20button%20and%20closed-menu%20button.png)<br/>
-[after setting up CSS Base.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/after%20setting%20up%20CSS%20Base.png)<br/>
-[nav bar turns into red.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/nav%20bar%20turns%20into%20red.png)<br/>
-[menu toggle list items showing.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/menu%20toggle%20list%20items%20showing.png)<br/>
-[theme retains bright.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/theme%20retains%20bright.png)<br/> 
-[theme retains dark.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/theme%20retains%20dark.png)<br/>
-[Search bar.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Search%20bar.png)<br/>
-[featured articles initial look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/featured%20articles%20initial%20look.png)<br/>
-[all trending news images in box.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/all%20trending%20news%20image%20in%20box.png)<br/> 
-[sidebar features css done-1.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-1.png)<br/> 
-[sidebar features css done-2.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-2.png)<br/> 
-[sidebar features css done-3.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-3.png)<br/>[sidebar features css done-4.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/sidebar%20features%20css%20done-4.png)<br/>
-[quick read next navigation shows.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/quick%20read%20next%20navigation%20shows.png)<br/>
-[swiper pagination works-1.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-1.png)<br/> 
-[swiper pagination works-2.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-2.png)<br/> 
-[swiper pagination works-3.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper-pagination%20works-3.png)<br/> 
-[swiper pagination works-4.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper-pagination%20works-4.png)<br/> 
-[swiper pagination works-5.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-5.png)<br/> 
-[swiper pagination works-6.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/swiper%20pagination%20works-6.png)<br/>
-[quick read in separate grid after adding breakpoints.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/quick%20read%20in%20seperate%20grid%20after%20adding%20breakpoints.png)<br/>
-[more striking bullet points.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/more%20strking%20bullet%20points.png)<br/>
-[all older posts cards with individual image.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/all%20older%20posts%20cards%20with%20individual%20image.png)<br/>
-[popular tags initial look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/poplar%20tags%20initial%20look.png)<br/>
-[newsletter section initial look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/newsletter%20section%20initial%20look.png)<br/>
-[newsletter final look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/newsletter%20final%20look.png)<br/>
-[footer social media icons.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/footer%20social%20media%20icons.png)<br/>
-[all copyrights reserved.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/all%20copyrights%20reserved.png)<br/>
-[footer sample items look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/footer%20sample%20items%20look.png)<br/>
-[vertically aligned footer items.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/vertically%20aligned%20footer%20items.png)<br/>
-[blog post content and author details.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/blog%20post%20contents%20and%20author%20details.png)<br/>
-[blog post overview look.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/blog%20post%20overview%20look.png)<br/>
-[remodified trending news alignment.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/remodified%20trending%20news%20alignment.png)<br/>
-[side-by-side popular tags.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/side-by-side%20popular%20tags.png)<br/>
-[better aligned featured articles.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/better%20aligned%20featured%20articles.png)<br/>
-[horizontally aligned older posts.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/horizontally%20aligned%20older%20posts.png)<br/>
-[menu bar on the very top.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/menu%20bar%20on%20the%20very%20top.png)<br/>
-[neon color hover sign up button.PNG](https://github.com/KrystalZhang612/BloggieBlog/blob/main/neon%20color%20hover%20sign%20up%20button.png)<br/>
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Tags and Topics
 javascript, front-end, html5, json-api, css3, html-css, javascript, swiper-js, javascript-manager, blogs. 
