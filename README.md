@@ -1113,15 +1113,48 @@ So now we have neon-colored sign-up button:<br/>
 
 # Testing Results
 
-
-
-
-
-
-
-
-
-
+<p align = "center">
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/8%20list-items.PNG">&nbsp; 
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sun%20and%20moon%20icons.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/search%20button%20and%20closed-menu%20button.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/after%20setting%20up%20CSS%20Base.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/menu%20toggle%20list%20items%20showing.PNG">&nbsp; 
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/theme%20retains%20bright.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/theme%20retains%20dark.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/Search%20bar.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/featured%20articles%20initial%20look.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/all%20trending%20news%20image%20in%20box.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sidebar%20features%20css%20done-1.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sidebar%20features%20css%20done-2.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sidebar%20features%20css%20done-3.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/sidebar%20features%20css%20done-4.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/quick%20read%20next%20navigation%20shows.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper%20pagination%20works-1.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper%20pagination%20works-2.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper-pagination%20works-3.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper-pagination%20works-4.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper%20pagination%20works-5.PNG">&nbsp;
+    <img src ="https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/swiper%20pagination%20works-6.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/quick%20read%20in%20seperate%20grid%20after%20adding%20breakpoints.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/more%20strking%20bullet%20points.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/all%20older%20posts%20cards%20with%20individual%20image.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/poplar%20tags%20initial%20look.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/newsletter%20section%20initial%20look.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/newsletter%20final%20look.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/footer%20social%20media%20icons.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/all%20copyrights%20reserved.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/footer%20sample%20items%20look.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/vertically%20aligned%20footer%20items.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/blog%20post%20contents%20and%20author%20details.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/blog%20post%20overview%20look.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/remodified%20trending%20news%20alignment.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/side-by-side%20popular%20tags.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/better%20aligned%20featured%20articles.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/horizontally%20aligned%20older%20posts.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/menu%20bar%20on%20the%20very%20top.PNG">&nbsp;
+    <img src = "https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/neon%20color%20hover%20sign%20up%20button.PNG">&nbdp;
+    
+</p>
 
 
 
