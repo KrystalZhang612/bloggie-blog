@@ -58,11 +58,19 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 | Ubuntu           | :white_check_mark: |
 
 # Method to Run & Test the Project Locally
+### `METHOD 1: `
 ### Download the entire Starter folder of the BloggieBlog project to the local directory.
 ### Open the project with Vscode on local device. 
 ### Install Vscode Extension [Live Server Vscode Extension v5.7.9](https://www.vsixhub.com/vsix/1950/) 
 ### Open [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) in Starter folder in Vscode. 
 ### Click `Go Live` on the bottom bar to view the BloggieBlog page. 
+### `METHOD 2`:
+### Have Node.js installed in your system.
+### Use `cd` to navigate from Console at the project directory
+### Run `npx http-server`
+### Run and test the translator App at http://127.0.0.1:8080 or http://10.0.0.85:8080
+### Hit CTRL-C to stop the server
+
 # Prerequisites & Setup
 ## ***Set up Header***
 In [index.html](https://github.com/KrystalZhang612/BloggieBlog/blob/main/Starter/index.html) under [Starter](https://github.com/KrystalZhang612/BloggieBlog/tree/main/Starter):<br/>
