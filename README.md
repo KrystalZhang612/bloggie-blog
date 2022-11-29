@@ -5,10 +5,10 @@ A newsfeed blog developed with HTML, CSS and JavaScript with frontend developmen
 ### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, will be subjected to copyright violation with sebsequent potential legal concerns.***
 ## BloggieBlog Site Overview:<br/>
 ![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/BloggieBlog%20Overview-1.PNG)<br/>
-![Screenshot]()<br/> 
-![Screenshot](https://github.com/KrystalZhang612/BloggieBlog/blob/main/BloggieBlog%20Overview-3.png)<br/>
-![Screenshot](https://github.com/KrystalZhang612/BloggieBlog/blob/main/BloggieBlog%20Overview-4.png)<br/> 
-![Screenshot](https://github.com/KrystalZhang612/BloggieBlog/blob/main/BloggieBlog%20Overview-5.png)<br/> 
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/BloggieBlog%20Overview-2.PNG)<br/> 
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/BloggieBlog%20Overview-3.PNG)<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/BloggieBlog%20Overview-4.PNG)<br/> 
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-BloggieBlog/blob/main/testing-result-BloggieBlog/BloggieBlog%20Overview-5.PNG)<br/> 
 
 # Functionalities/Demo
 - A responsive blog website from scratch.
